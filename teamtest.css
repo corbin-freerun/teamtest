@@ -1,0 +1,46 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "hd hd"
+        "nb nb"
+        "ss mf"
+        "pi pi"
+        "ft ft";
+    background-color: burlywood;
+    row-gap: 10px;
+    column-gap: 15px;
+}
+
+div{
+    border: 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #dddddd;
+    
+}
+
+.header{
+    grid-area: hd;
+}
+
+.navbar{
+    grid-area: nb;
+}
+
+.slideshow{
+    grid-area: ss;
+}
+
+.mailingForm{
+    grid-area: mf;
+}
+
+.productInformation{
+    grid-area: pi;
+}
+
+.footer{
+    grid-area: ft;
+}
