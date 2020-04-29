@@ -1,25 +1,28 @@
-
+body{
+    background-color: burlywood;
+}
 
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-        "nb nb"
+        
         "hd hd"
         "ss mf"
         "pi pi"
         "ft ft";
-
+    row-gap: 10px;
+    column-gap: 15px;
 }
 
 .grid div{
-    border: 5px black;
+    border: 1px black;
     padding: 15px;
     border-radius: 10px;
     background-color: #dddddd;
-    text-align: center;
     height: 100px;
+    text-align: center;
 }
 
 .header{
@@ -46,22 +49,25 @@
     grid-area: ft;
 }
 
-/*navbar***************************************/
+
+/*This is for the Nav Bar*/
+
 
 #navbarstyle{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
 
 li {
-    display: inline;
+  display: inline;
 }
 
 div.sticky {
-    position: sticky;
-    top: 0;
-    background-color: green;
-    border: 2px solid #4CAF50;
-  }
+  position: sticky;
+  top: 0;
+  background-color: sandybrown;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+}
