@@ -1,67 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="teamtest copy.css"
+</head>
+<body>
+  <div id="navbar" class="navbar sticky">
+    <ul id="navbarstyle sticky">
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
+  </div>
+    <div class="grid">
+        <div class="header" id="header">
+            Header Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quod.
+        </div>
 
+        
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "nb nb"
-        "hd hd"
-        "ss mf"
-        "pi pi"
-        "ft ft";
+        <div class="slideshow">
+            Slideshow Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, alias!
+        </div>
 
-}
+        <div class="mailingForm">
+            Mailingform Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, fuga?
+        </div>
 
-.grid div{
-    border: 5px black;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: #dddddd;
-    text-align: center;
-    height: 100px;
-}
+        <div class="productInformation">
+            product infor Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aliquid.
+        </div>
 
-.header{
-    grid-area: hd;
-}
-
-.navbar{
-    grid-area: nb;
-}
-
-.slideshow{
-    grid-area: ss;
-}
-
-.mailingForm{
-    grid-area: mf;
-}
-
-.productInformation{
-    grid-area: pi;
-}
-
-.footer{
-    grid-area: ft;
-}
-
-/*navbar***************************************/
-
-#navbarstyle{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-  }
-
-li {
-    display: inline;
-}
-
-div.sticky {
-    position: sticky;
-    top: 0;
-    background-color: green;
-    border: 2px solid #4CAF50;
-  }
+        <div class="footer">
+            footer Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, blanditiis?
+        </div>
+    </div>
+</body>
+<script src="teamtest.js"></script>
+</html>
